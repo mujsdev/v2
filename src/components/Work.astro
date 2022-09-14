@@ -1,6 +1,5 @@
 ---
 import work from "../data/work.json";
-import { Image } from "@astrojs/image/components";
 ---
 
 <section id="work" class="col-span-full global-grid py-48 md:py-96 lg:py-160 space-y-24 lg:space-y-48">
@@ -14,8 +13,8 @@ import { Image } from "@astrojs/image/components";
       work.map((work) => {
         return (
           <div class="space-y-24 items-center flex flex-col lg:flex-row lg:even:flex-row-reverse relative">
-            <Image
-              src={import(work.img)}
+            <img
+              src={work.img}
               alt="project image"
               class="shadow-2xl rounded-12 md:rounded-24 saturate-0 transition-all duration-200 ease-in-out hover:saturate-100 lg:h-[430px] lg:w-[590px] lg:object-cover"
             />
