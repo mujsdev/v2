@@ -9,7 +9,7 @@
         "website": "https://marketplace.visualstudio.com/items?itemName=Muj.popcorn"
       }
     ],
-    "img": "/src/assets/images/feature-work-01.png"
+    "img": "/assets/images/feature-work-01.png"
   },
   {
     "name": "Juice WRLD Spotify Tribute",
@@ -22,7 +22,7 @@
         "behance": "https://www.behance.net/gallery/100144327/Juice-WRLD-Tribute-Website"
       }
     ],
-    "img": "/src/assets/images/feature-work-02.png"
+    "img": "/assets/images/feature-work-02.png"
   },
   {
     "name": "Mamo Pay Website Revamp",
@@ -34,6 +34,6 @@
         "website": "https://mamopay.com"
       }
     ],
-    "img": "/src/assets/images/feature-work-03.png"
+    "img": "/assets/images/feature-work-03.png"
   }
 ]
