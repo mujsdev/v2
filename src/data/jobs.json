@@ -1,0 +1,60 @@
+[
+  {
+    "id": "mamo",
+    "company": "Mamo",
+    "companyFull": "Mamo",
+    "website": "https://mamopay.com",
+    "position": "Design Engineer",
+    "startDate": "2021-07",
+    "endDate": "Present",
+    "accomplished": [
+      "Leveraged the power of SCSS to build an atomic design system to redesign the Mamo Pay for Business dashboard.",
+      "Cleared technical debt by transitioning codebase from pure HTML to maintainable and reusable React components.",
+      "Revamped entire website leveraging Webflow’s no-code features.",
+      "Design (occasionally) and build either BAU (business as usual) or one-time off emails for growth/marketing teams.",
+      "Collaborate with different teams of engineers, product designers and managers on a daily basis."
+    ],
+    "defaultActive": true
+  },
+  {
+    "id": "iedea",
+    "company": "IEDEA",
+    "companyFull": "IEDEA",
+    "website": "https://iedea.com",
+    "position": "Frontend Developer",
+    "startDate": "2020-11",
+    "endDate": "2021-06",
+    "accomplished": [
+      "Maintaining IEDEA’s website by doing some minimal housekeeping using PHP and HTML.",
+      "Designed and developed a microsite using Next.js and Tailwind CSS."
+    ]
+  },
+  {
+    "id": "smart-iedea",
+    "company": "SMART IEDEA",
+    "companyFull": "SMART IEDEA",
+    "website": "https://iedea.com",
+    "position": "Frontend Developer",
+    "startDate": "2020-11",
+    "endDate": "2021-06",
+    "accomplished": [
+      "Created visually rich virtual environments provided by 3D designers using the meetyoo platform for clients such as Dubai Cares (RewirEdX), Tristar (Safety at Sea), ABLF (ABLF Talks Live).",
+      "Ran 8-hour virtual live events by changing rooms, communicating with users by sending live notifications for their next sessions.",
+      "Maintaining SMART IEDEA’s website by doing some minimal housekeeping using PHP and HTML."
+    ]
+  },
+  {
+    "id": "iupui",
+    "company": "IUPUI",
+    "companyFull": "IUPUI Division of Undergraduate Education",
+    "website": "https://due.iupui.edu/",
+    "position": "Web Developer",
+    "startDate": "2018-12",
+    "endDate": "2020-08",
+    "accomplished": [
+      "As part of the web team, communicated with other business units to manage and design content using WCMS (Web Content Management System) across 50+ websites.",
+      "Plan, design, and send emails using Salesforce and Mailchimp to 20,000+ students and staff across campus.",
+      "Created a custom digital signage using PHP and HTML displaying upcoming events across 15+ screens across campus"
+    ]
+  }
+]

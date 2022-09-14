@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Banana – An Organic Recipes design concept",
+    "info": "Had a fun time designing an “organic recipes” website. I plan on developing this to life so stay tuned...",
+    "tags": ["Adobe Xd"],
+    "links": [
+      {
+        "behance": "https://www.behance.net/gallery/111132199/Banana"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Instagram @mujs.dev – Content Creator",
+    "info": "Shameless yet not so shameless plug. An account with 10k+ followers, I love creating/sharing content.",
+    "tags": ["Figma", "Notion", "Adobe Xd", "Github"],
+    "links": [
+      {
+        "github": "https://github.com/mujsdev",
+        "website": "https://www.instagram.com/mujs.dev/"
+      }
+    ]
+  },
+  {
+    "name": "Microinteractions – HTML, CSS and JS",
+    "info": "A friend and I worked on a couple of microinteractions that are easy to use. Just plug and play and you're set.",
+    "tags": ["HTML", "CSS", "JS"],
+    "links": [
+      {
+        "github": "https://github.com/mujsdev/mi-html"
+      }
+    ]
+  },
+  {
+    "name": "Ninja Chat",
+    "info": "A simple chat application to discuss the political and economic state of the world. Or at least that’s one of the things you can talk about.",
+    "tags": ["Vue.js", "Firebase", "Materialize CSS"],
+    "links": [
+      {
+        "github": "",
+        "website": "https://ninja-chat-application.web.app/"
+      }
+    ]
+  },
+  {
+    "name": "Natours",
+    "info": "A conceptual website about users wanting to discover different naturistic tour plans.",
+    "tags": ["HTML", "SCSS", "Flexbox"],
+    "links": [
+      {
+        "website": "https://natours.netlify.app/"
+      }
+    ]
+  },
+  {
+    "name": "Nexter",
+    "info": "Another concept to own your next world's best luxury home in a week.",
+    "tags": ["HTML", "SCSS", "Grid"],
+    "links": [
+      {
+        "website": "https://nexter.netlify.app/"
+      }
+    ]
+  }
+]
