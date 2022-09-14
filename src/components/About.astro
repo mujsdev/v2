@@ -1,4 +1,5 @@
 ---
+import { Image } from "@astrojs/image/components";
 import BabyMuj from "../assets/images/baby-me.jpg";
 ---
 
@@ -60,7 +61,7 @@ import BabyMuj from "../assets/images/baby-me.jpg";
   </div>
   <div class="col-span-full pt-24 space-y-16 md:pt-40 xl:pt-0 xl:col-start-8 xl:space-y-24">
     <div class="h-[400px] xl:h-[550px]">
-      <img
+      <Image
         src={BabyMuj}
         alt="Baby Muj in the house"
         class="saturate-0 w-full h-full object-cover object-[75%] rounded-12 md:rounded-24 shadow-2xl transition-all duration-200 ease-in-out hover:saturate-100"
