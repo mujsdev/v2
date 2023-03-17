@@ -1,5 +1,6 @@
 ---
 import Button from "./Button.astro";
+import BentoLogo from "../assets/bento-logo.svg";
 import Resume from "/mujtaba_resume.pdf";
 ---
 
@@ -17,21 +18,10 @@ import Resume from "/mujtaba_resume.pdf";
   </div>
 
   <div class="col-span-full flex flex-col items-center space-y-24 lg:col-start-4 lg:col-end-10">
-    <div class="space-x-32">
-      <a href="https://github.com/mujsdev" target="_blank" class="not-fancy">
-        <span class="text-20 fa-brands fa-github"></span>
-      </a>
-      <a href="https://www.linkedin.com/in/mujsdev/" target="_blank" class="not-fancy">
-        <span class="text-20 fa-brands fa-linkedin-in"></span>
-      </a>
-      <a href="https://codepen.io/mujsdev" target="_blank" class="not-fancy">
-        <span class="text-20 fa-brands fa-codepen"></span>
-      </a>
-      <a href="https://www.instagram.com/mujs.dev/" target="_blank" class="not-fancy">
-        <span class="text-20 fa-brands fa-instagram"></span>
-      </a>
-      <a href="https://medium.com/@mujs.dev" target="_blank" class="not-fancy">
-        <span class="text-20 fa-brands fa-medium"></span>
+    <div>
+      <a href="https://bento.me/mujsdev" class="not-fancy w-full mx-auto tooltip">
+        <img src={BentoLogo} alt="All socials" class="w-32 h-32" />
+        <span class="tooltip-text subtext">click me :) i dare u xoxo</span>
       </a>
     </div>
 
@@ -40,3 +30,30 @@ import Resume from "/mujtaba_resume.pdf";
     </span>
   </div>
 </footer>
+
+<style is:global>
+  .tooltip {
+    position: relative;
+  }
+
+  .tooltip-text {
+    font-size: 1.2rem;
+    width: max-content;
+
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 90%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    transition: bottom 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s;
+  }
+
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    bottom: 150%;
+  }
+</style>
