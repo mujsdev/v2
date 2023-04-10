@@ -14,8 +14,8 @@
   {
     "name": "Juice WRLD Spotify Tribute",
     "type": "Tribute project",
-    "info": "Being a Juice WRLD fan, I wanted to display his best music and Spotify's API came to mind. A simple page showcasing his best music. First time using OAuth2 to get a hold of Spotify's data but it was worth it.",
-    "tags": ["React", "Tailwind CSS", "Spotify API", "OAuth2", "Heroku"],
+    "info": "Being a Juice WRLD fan, I wanted to display his best music and Spotify's API came to mind. A simple page showcasing his best music. Initially built in 2018, but redone in 2023 to spice up the tech stack",
+    "tags": ["React", "Tailwind CSS", "Spotify API", "Supabase", "Netlify"],
     "links": [
       {
         "website": "https://juicewrld-999.netlify.app/",
