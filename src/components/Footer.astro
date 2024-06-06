@@ -1,13 +1,16 @@
 ---
 import Button from "./Button.astro";
 import BentoLogo from "../assets/bento-logo.svg";
-import Resume from "/mujtaba_resume.pdf";
+import Resume from "/mujtaba_murtaza_resume.pdf";
 ---
 
-<footer class="col-span-full global-grid py-48 space-y-64 md:py-96 xl:pt-0 xl:pb-160">
-  <div class="col-span-full space-y-24 flex flex-col items-center text-center lg:col-start-4 lg:col-end-10">
+<footer
+  class="col-span-full global-grid py-48 space-y-64 md:py-96 xl:pt-0 xl:pb-160">
+  <div
+    class="col-span-full space-y-24 flex flex-col items-center text-center lg:col-start-4 lg:col-end-10">
     <p class="subtext text-12 md:text-16">
-      I tried sneaking in my resume on the website but couldn&apos;t find a cool place so yeah...
+      I tried sneaking in my resume on the website but couldn&apos;t find a cool
+      place so yeah...
     </p>
     <Button
       text="Resume 🤓"
@@ -17,16 +20,22 @@ import Resume from "/mujtaba_resume.pdf";
     />
   </div>
 
-  <div class="col-span-full flex flex-col items-center space-y-24 lg:col-start-4 lg:col-end-10">
+  <div
+    class="col-span-full flex flex-col items-center space-y-24 lg:col-start-4 lg:col-end-10">
     <div>
-      <a href="https://bento.me/mujsdev" class="not-fancy w-full mx-auto tooltip">
+      <a
+        href="https://bento.me/mujsdev"
+        class="not-fancy w-full mx-auto tooltip">
         <img src={BentoLogo} alt="All socials" class="w-32 h-32" />
         <span class="tooltip-text subtext">click me :) i dare u xoxo</span>
       </a>
     </div>
 
     <span class="text-center text-12 md:text-14">
-      Designed and built with ❤️ (and <a href="https://astro.build/" target="_blank">Astro</a>) by&nbsp;Muj
+      Designed and built with ❤️ (and <a
+        href="https://astro.build/"
+        target="_blank">Astro</a
+      >) by&nbsp;Muj
     </span>
   </div>
 </footer>
@@ -48,7 +57,8 @@ import Resume from "/mujtaba_resume.pdf";
     bottom: 90%;
     z-index: 10;
     transform: translate(-50%, -50%);
-    transition: bottom 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s;
+    transition: bottom 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+      opacity 0.3s;
   }
 
   .tooltip:hover .tooltip-text {
